@@ -10,12 +10,13 @@ Seu desafio será aplicar técnicas modernas de uso de LLMs, como **engenharia d
 
 ## 📌 Objetivo
 
-Você deverá resolver, com auxílio de uma LLM (via API ou modelo hospedado), **duas ou mais tarefas** entre as seguintes:
+Você deverá resolver, com auxílio de uma LLM (via API ou modelo hospedado), **três ou mais tarefas** entre as seguintes:
 
 - ✅ Geração de resumo técnico estruturado de documentos complexos
 - ✅ Classificação de documentos em categorias predefinidas
 - ✅ Extração de entidades e dados relevantes com base em contexto (NLP)
 - ✅ Identificação de erros ou inconsistências formais em documentos
+- ✅ Permitir uso de input humano para questionar dados/informações contidas nos documentos 
 
 Você pode escolher o **domínio dos documentos** (ex: contratos, relatórios técnicos, decisões regulatórias, textos acadêmicos), desde que apresentem **grau de complexidade suficiente** para justificar o uso de LLMs.
 
@@ -64,15 +65,22 @@ Você pode enviar sua solução por meio de:
 
 ## 🧠 Critérios de Avaliação
 
-| Critério                                      | Peso |
-|----------------------------------------------|------|
-| Clareza e justificativa das decisões técnicas | ⭐⭐⭐⭐ |
-| Qualidade do prompting e da abordagem de LLM  | ⭐⭐⭐⭐ |
-| Relevância e qualidade dos resultados obtidos | ⭐⭐⭐ |
-| Criatividade e domínio de técnicas auxiliares | ⭐⭐⭐ |
-| Organização e legibilidade do código          | ⭐⭐  |
+Durante a análise da sua entrega, consideraremos os seguintes pontos:
 
----
+- **Clareza e justificativa técnica**  
+  Esperamos que as decisões tomadas ao longo da solução sejam bem fundamentadas, com explicações claras sobre a escolha de abordagens, limitações enfrentadas e alternativas consideradas.
+
+- **Qualidade do prompting e uso da LLM**  
+  Avaliaremos a forma como a LLM foi utilizada, incluindo a construção dos prompts, modularidade dos testes e aproveitamento de contexto para respostas precisas.
+
+- **Relevância e qualidade dos resultados**  
+  Será analisado o quão eficaz a solução foi em executar as tarefas propostas, incluindo exemplos práticos, consistência nas saídas e capacidade do pipeline de adaptação a diferentes documentos.
+
+- **Criatividade e uso de técnicas auxiliares**  
+  Valorizamos abordagens inovadoras, como uso de embeddings, reranking, fluxos interativos ou sugestões de melhoria com fine-tuning.
+
+- **Organização e legibilidade do código**  
+  O código deve estar bem estruturado, com boas práticas de programação.
 
 ## 💬 Dúvidas?
 
